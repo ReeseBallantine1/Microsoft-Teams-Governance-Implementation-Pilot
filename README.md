@@ -36,9 +36,10 @@ The pilot was designed to:
 - Microsoft 365
 - SharePoint Online
 - Microsoft 365 Groups
-- Microsoft 365 Admin / SharePoint Admin Center
+- Microsoft 365 Admin Center
+- SharePoint Admin Center
+- Microsoft Entra ID
 - Microsoft Word
-- Microsoft Entra ID user accounts
 
 ---
 
@@ -58,7 +59,7 @@ A separate test account was used to validate the environment from an end-user pe
 
 ## Governance and Access Control
 
-The project tested several governance controls including:
+The project tested several governance controls.
 
 ### Team Membership
 
@@ -127,7 +128,7 @@ This demonstrated how Teams can provide the collaboration interface while ShareP
 
 ## Collaboration Testing
 
-The environment was tested from an end-user account to validate the actual user experience.
+The environment was tested from a separate end-user account to validate the actual user experience.
 
 Testing included:
 
@@ -139,7 +140,7 @@ Testing included:
 - Message translation
 - Immersive Reader
 - Code snippets
-- GIF/sticker functionality
+- GIF and sticker functionality
 - Praise
 - Reactions
 - Shared document access
@@ -180,7 +181,7 @@ The pilot therefore included an adoption and handover approach covering:
 - Confirming lifecycle controls
 - Providing user guidance and support
 
-The intention is to move from technical implementation into a controlled and supportable operational service.
+The intention was to consider how the pilot could move from technical implementation into a controlled and supportable operational service.
 
 ---
 
@@ -208,15 +209,26 @@ The pilot successfully demonstrated a structured Microsoft Teams environment wit
 
 The project provided hands-on experience across both the technical and project-delivery aspects of Microsoft 365 collaboration, including:
 
-**Teams administration | SharePoint Online | Permissions | Private channels | External sharing | Governance | User testing | Adoption | Handover**
+**Teams Administration | SharePoint Online | Permissions | Private Channels | External Sharing | Governance | User Testing | Adoption | Handover**
 
 ---
 
 ## Evidence
 
-The implementation was documented throughout the project with screenshots covering configuration, permissions, testing, SharePoint integration and governance controls.
+Selected project evidence is available in the dedicated evidence folder, including screenshots covering:
 
-Selected evidence will be included in this repository while avoiding unnecessary exposure of tenant information.
+- Microsoft Teams configuration
+- Standard and private channel structure
+- Team membership and access control
+- SharePoint Online integration
+- SharePoint permissions
+- Restricted sharing controls
+- Governance standards
+- Adoption and handover planning
+
+### [View Project Evidence](./evidence)
+
+The evidence has been selected to demonstrate key project outcomes while avoiding unnecessary exposure of tenant information.
 
 ---
 
@@ -236,3 +248,11 @@ Effective governance requires consideration of:
 - How the service is transitioned into ongoing support.
 
 The pilot also demonstrated the importance of testing controls using a separate user account rather than assuming administrative configuration produces the intended end-user experience.
+
+---
+
+## Project Scope
+
+This repository documents a **self-directed Microsoft 365 technical pilot** created to develop and demonstrate practical experience with Microsoft Teams governance, SharePoint integration, access control, user testing and adoption planning.
+
+It should not be interpreted as a production Microsoft 365 deployment completed for an external organisation.
